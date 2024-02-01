@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assects/images/main.jpg");
+    height: 100vh;
+    background-position: center;
+    position: relative;
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+
+nav {
+    display: flex;
+    /* background-color: aliceblue; */
+    height: 15vh;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.b1 {
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 20px;
+    padding: 4px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.b2 {
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    margin-right: 20px;
+    padding: 4px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    color: white;
+    opacity: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content .line1 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.line2 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+}
+
+.line3 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
+    width: 30vw;
+    height: 42px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.submit {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 44px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    margin-right: 20px;
+    padding: 4px 30px;
+
+}
+
+footer {
+    width: 80vw;
+    margin: auto;
+    height: 25vh;
+    color: white;
+    font-size: 12px;
+}
+
+td,
+th {
+    padding: 10px 50px;
+}
+
+.table a {
+    color: white;
+    text-decoration: none;
+}
+
+.table tr :hover {
+    color: red;
+}
+
+.box a :hover {
+    background-color: rgb(250, 81, 81);
+    border-radius: 8px;
+}
